@@ -35,6 +35,10 @@
 						
 						
 						<form action="../addBooks" method="post" enctype="multipart/form-data">
+						   <div class="form-group">
+								<label for="exampleInputEmail1">Reference Id*</label> 
+								<input name="referenceId" type="number" class="form-control" id="exampleInputEmail1" aria-describedly="emailHelp">
+							</div>
 							<div class="form-group">
 								<label for="exampleInputEmail1">Book Name*</label> 
 								<input name="bname" type="text" class="form-control" id="exampleInputEmail1" aria-describedly="emailHelp">
@@ -62,10 +66,12 @@
 									<option value="Inactive">Inactive</option>
 								</select>
 							</div>
-							<div class="form-group">
-								<label for="exampleFormControlFile1">Upload Photo</label> 
-								<input name="bimg" type="file" class="form-control-file" id="exampleFormControlFile1">
-							</div>
+<!--  					<div class="form-group">
+								<label for="exampleFormControlFile1">Reference Id</label> 
+								<input name="reference id" type="number" class="form-control-file" id="exampleFormControlFile1">
+							</div> -->
+							
+							
 							
 							<button type="submit" class="btn btn-primary">Add</button>
 						</form>

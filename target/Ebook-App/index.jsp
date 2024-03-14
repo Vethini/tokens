@@ -48,7 +48,7 @@
 	<div class="container-fluid back-img">
 		<div id="carouselExampleControls" class="carousel slide position-relative" data-ride="carousel">
 			<div class="carousel-content">
-				<h2>Ebook Management System</h2>
+				<h2>Book OLX</h2>
 	      	</div>
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">

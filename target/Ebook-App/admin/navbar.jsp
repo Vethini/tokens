@@ -4,7 +4,7 @@
 	<div class="row">
 
 		<div class="col-md-3 text-success">
-			<h3 class="mx-2"><i class="fa-solid fa-book"></i> Ebooks</h3>
+			<h3 class="mx-2"><i class="fa-solid fa-book"></i> BOOK OLX</h3>
 		</div>
 		<div class="col-md-3">
 			<c:if test="${not empty userObj}">

@@ -55,11 +55,11 @@ public class UserDAOImpl implements UserDAO{
 				us.setEmail(rs.getString(3));
 				us.setPhno(rs.getString(4));
 				us.setPassword(rs.getString(5));
-				us.setAddress(rs.getString(6));
-				us.setLandmark(rs.getString(7));
-				us.setCity(rs.getString(8));
-				us.setState(rs.getString(9));
-				us.setPincode(rs.getString(10));
+//				us.setAddress(rs.getString(6));
+//				us.setLandmark(rs.getString(7));
+//				us.setCity(rs.getString(8));
+//				us.setState(rs.getString(9));
+//				us.setPincode(rs.getString(10));
 				
 				
 			}

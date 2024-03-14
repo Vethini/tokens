@@ -11,6 +11,7 @@ com\user\servlet\RegisterServlet.class
 com\DAO\BookDAO.class
 com\DAO\BookOrderDAO.class
 com\entity\BookDtls.class
+com\Utils\EncryptionDecryptionServlet.class
 com\DAO\UserDAOImpl.class
 com\admin\servlet\BooksAdd.class
 com\DAO\BookDAOImpl.class

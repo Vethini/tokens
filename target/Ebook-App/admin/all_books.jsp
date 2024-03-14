@@ -36,8 +36,8 @@
 	  <thead class="bg-primary text-white">
 	    <tr>
 	      <th scope="col">ID</th>
-	      <th scope="col">Image</th>
 	      <th scope="col">Book Name</th>
+	      <th scope="col">referenceId</th>
 	      <th scope="col">Author Name</th>
 	      <th scope="col">Price</th>
 	      <th scope="col">Categories</th>
@@ -53,7 +53,6 @@
 	  		
 	  		 <tr>
 		      <td><%= b.getBookId() %></td>
-		    <!--   <td><img src="../book/<%= b.getPhotoName() %>"  style="width: 50px; height: 50px;"/></td> -->
 		      <td><%= b.getBookName() %></td>
 		      <td><%= b.getRefId() %></td>
 		      <td><%= b.getAuthor() %></td>

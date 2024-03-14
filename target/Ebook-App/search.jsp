@@ -41,7 +41,7 @@
 				
 				<div class="card card-ho">
 					<div class="card-body text-center">
-						<img src="book/<%= b.getRefId() %>" style="height:200px; width: 150px" class="img-thumblin"/>
+					    <p><%= b.getRefId() %></p>
 						<p><%= b.getBookName() %></p>
 						<p><%= b.getAuthor() %></p>
 						<p> Category: <%= b.getBookCategory() %> </p>
